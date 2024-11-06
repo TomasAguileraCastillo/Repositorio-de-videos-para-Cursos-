@@ -6,7 +6,7 @@
 		$file_name = $_FILES['video']['name'];
 		$file_temp = $_FILES['video']['tmp_name'];
 		$file_size = $_FILES['video']['size'];
-		$descripcion=$_POST['descripcion'];	
+		$descripcion=$_POST['descripcion'] ;	
 		
 		if($file_size < 1000000000){
 			$file = explode('.', $file_name);
